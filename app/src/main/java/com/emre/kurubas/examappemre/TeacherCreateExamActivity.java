@@ -60,7 +60,7 @@ public class TeacherCreateExamActivity extends AppCompatActivity {
         radioGroup.clearCheck();
         questionNumber++;
 
-        if (questionNumber > 5) { // You might want to adjust the limit or make it flexible.
+        if (questionNumber > 5) {
             examNameInput.setVisibility(View.VISIBLE);
             submitExamBtn.setVisibility(View.VISIBLE);
             questionInput.setEnabled(false);
