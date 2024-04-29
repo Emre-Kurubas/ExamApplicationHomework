@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_secondary"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="104dp"
+        android:layout_height="285dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-40dp"
+        android:src="@drawable/penpaper_icon" />
+
+    <Button
+        android:id="@+id/btnActiveExams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Active Exams" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="104dp"
+        android:layout_height="285dp"
+        android:layout_marginLeft="140dp"
+        android:src="@drawable/logout_icon" />
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"/>
+
+
+</LinearLayout>

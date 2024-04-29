@@ -13,7 +13,7 @@
         android:theme="@style/Theme.ExamAppEmre"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +21,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TeacherCreateExamActivity" />
+
+        <activity android:name=".TeacherDashboardActivity" />
+
+        <activity android:name=".TeacherReviewExamsActivity" />
+        <activity android:name=".ActiveExamsActivity" />
+        <activity android:name=".ExamActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".ScoresActivity" />
+        <activity android:name=".StudentLoginActivity" />
+
+
+
+
+
     </application>
 
 </manifest>

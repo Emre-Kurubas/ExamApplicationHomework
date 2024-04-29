@@ -8,6 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.emre.kurubas.examappemre"
+        applicationId = "com.emre.kurubas.examappemre"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -30,10 +31,12 @@ android {
 
 dependencies {
 
+
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.gson)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
